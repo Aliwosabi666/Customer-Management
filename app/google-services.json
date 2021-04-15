@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "947610921237",
+    "project_id": "customer-management-4e78a",
+    "storage_bucket": "customer-management-4e78a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:947610921237:android:6928302109f8e3b151611c",
+        "android_client_info": {
+          "package_name": "com.example.customermanagement"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "947610921237-ii3rlf1uo5nsqegl7qe6rqqrr47d240i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6Lfj8WNm-OM4o8E4fB0CfhBIzYAMDFCM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "947610921237-ii3rlf1uo5nsqegl7qe6rqqrr47d240i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

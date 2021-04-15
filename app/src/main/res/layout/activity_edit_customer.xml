@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/btnsave"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="5dp"
+    android:orientation="vertical"
+    tools:context=".ui.customer.EditCustomer">
+
+
+    <!--<EditText
+    android:id="@+id/txtid"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:hint="Id"
+    android:textColor="#000"
+    android:textSize="18dp"
+    android:textStyle="bold"
+    android:focusable="auto"/>-->
+
+    <EditText
+        android:id="@+id/txtnom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Nom"
+        android:textColor="#000"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:focusable="auto"/>
+
+    <EditText
+        android:id="@+id/txtprenom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Prénom"
+        android:textColor="#000"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:focusable="auto"/>
+
+    <EditText
+        android:id="@+id/txtadresse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Adresse"
+        android:textColor="#000"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/txtemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Email"
+        android:textColor="#000"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/txtcoorgps"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Coordonnées GPS"
+        android:textColor="#000"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Update"
+        android:id="@+id/usubmit"
+        android:background="@color/purple_200"
+        android:textColor="#fff"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        />
+
+</LinearLayout>
